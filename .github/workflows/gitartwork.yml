@@ -1,29 +1,18 @@
-name: gitartwork for contribution graph
-
-on:
-  push:
-  schedule:
-    - cron: '* */24 * * *'
-
-jobs:
-  build:
-    name: Make gitartwork SVG
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Create GitArtwork
-        uses: jasineri/gitartwork@v1
-        with:
-          # Use this username's contribution graph
-          user_name: 18me1a0327
-          # Text on contribution graph
-          text: Anand Venkata Rakumar
-
-      - name: Commit and Push
-        uses: jasineri/simple-push-action@v1
-        with:
-          file_pattern: ./*.*
-
+ name: gitartwork from a contribution graph
+ on: 
+   push:
+   schedule:
+     - cron: '* */24 * * *'
+ jobs:
+   build:
+     name: Make gitartwork SVG
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v3
+       - uses: jasineri/gitartwork@v1
+         with:
+            # Use this username's contribution graph  
+            user_name: jasineri
+            # Text on contribution graph 
+            text: Anand venkata rakumar
+       - uses: jasineri/simple-push-action@v1
