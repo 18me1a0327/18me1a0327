@@ -62,7 +62,7 @@ href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https:
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=18me1a0327&show_icons=true&theme=discord" alt="Anand Venkata Rakumar" />
 </a> </p>
 ### 📈 My GitHub Contributions
-![Snake animation](https://github.com/18me1a0327/anandvenkatarakumar/blob/main/.github/workflows/gitartwork.yml)
+![Snake animation](https://github.com/18me1a0327/18me1a0327/blob/main/.github/workflows/gitartwork.yml)
 
 <div style="align:center;
             display:fill;
